@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  color: #666666;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: black;
+  text-align: center;
+}
+
+#logo {
+  padding: 20px 0;
+  width: 200px;
+}
+
+h1 {
+  color: #3b3b3b;
+  font-size: 3em;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#input-container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 65% 35%;
+  width: 50%;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+}
+
+input[type='text'] {
+  height: 50px;
+  font-size: 24px;
+}
+
+ol {
+  font-size: 25px;
+  width: 70%;
+}
+
+li {
+  padding: 10px 2px 5px;
+  border-bottom: 2px solid #e5e2e0;
+}
+
+.label {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #333333;
+  font-size: 10px;
+  float: right;
+}
+
+.label.pending {
+  background-color: #e60d2a;
+  color: white;
+}
+
+.label.success {
+  background-color: #03810b;
+  color: white;
+}
+
+#total-container {
+  margin-top: 25px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
